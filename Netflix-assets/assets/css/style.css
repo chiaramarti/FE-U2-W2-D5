@@ -13735,14 +13735,6 @@ main nav li.dropdown {
 main nav li.dropdown:hover {
   background-color: rgb(24, 24, 24);
 }
-main nav .d-flex .btn-bk {
-  background-color: none;
-  border: 1px white solid;
-}
-main nav .d-flex .btn-bk:hover {
-  background-color: rgb(26, 26, 26);
-  cursor: pointer;
-}
 main nav section.trending-now-section .container-fluid, main nav section.trending-now-section .container-sm, main nav section.trending-now-section .container-md, main nav section.trending-now-section .container-lg, main nav section.trending-now-section .container-xl, main nav section.trending-now-section .container-xxl {
   --bs-gutter-x: 0.2em;
 }
@@ -13751,6 +13743,17 @@ main nav section.trending-now-section .row div.col-md-2 {
   padding-right: 0;
   padding-left: 0;
   margin-top: var(--bs-gutter-y);
+}
+
+.btn-bk {
+  background-color: none;
+  border: 1px white solid;
+  border-radius: 0;
+}
+
+.btn-bk:hover {
+  background-color: rgb(26, 26, 26);
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */

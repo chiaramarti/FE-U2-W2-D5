@@ -42,18 +42,6 @@ main{
             background-color: rgb(24, 24, 24);
         }
 
-        .d-flex{
-
-            .btn-bk{
-                background-color: none;
-                border: 1px white solid;
-            }
-            .btn-bk:hover{
-                background-color: rgb(26, 26, 26);
-                cursor: pointer;
-            }
-        }
-
         section.trending-now-section{
             .container-fluid{
                 --bs-gutter-x: 0.2em;
@@ -69,4 +57,14 @@ main{
 
         
     }
+}
+
+.btn-bk{
+    background-color: none;
+    border: 1px white solid;
+    border-radius: 0;
+}
+.btn-bk:hover{
+    background-color: rgb(26, 26, 26);
+    cursor: pointer;
 }
