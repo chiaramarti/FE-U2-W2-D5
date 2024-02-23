@@ -1,0 +1,18 @@
+{
+  "name": "fe-u2-w2-d5",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass Netflix-assets/assets/scss/style.scss Netflix-assets/assets/css/style.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  },
+  "devDependencies": {
+    "sass": "^1.71.1"
+  }
+}
