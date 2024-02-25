@@ -13700,6 +13700,7 @@ progress {
     display: none !important;
   }
 }
+/*HOME PAGE*/
 .navbar-brand img {
   width: 6em;
 }
@@ -13754,6 +13755,52 @@ main nav section.trending-now-section .row div.col-md-2 {
 .btn-bk:hover {
   background-color: rgb(26, 26, 26);
   cursor: pointer;
+}
+
+/*LOGIN*/
+.account h1, .account .h1, .account form, .account .second-section {
+  border-bottom: solid 2px rgb(55, 55, 55);
+}
+.account .fourth-section {
+  border-top: solid 2px rgb(55, 55, 55);
+}
+.account .img-container span {
+  bottom: 1em;
+  left: 1em;
+}
+.account span {
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.789);
+}
+.account form input {
+  background-color: rgb(134, 134, 134);
+  display: block;
+  border: none;
+  color: white;
+  padding: 3px 10px;
+  margin-top: 2px;
+  margin-bottom: 1em;
+}
+.account form li .dropdown-toggle {
+  background-color: black;
+  border: 1px white solid;
+  max-width: 5.3em;
+}
+.account form li .dropdown-toggle:hover {
+  background-color: rgb(24, 24, 24);
+}
+.account .badge:nth-child(2) {
+  background-color: #343a40;
+}
+.account button {
+  letter-spacing: 2px;
+}
+.account .third-section p {
+  font-size: 0.9rem;
+  display: inline-block;
+}
+.account .third-section .btn {
+  --bs-btn-padding-x: 0.1em;
+  --bs-btn-padding-y: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
